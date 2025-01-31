@@ -111,38 +111,6 @@ const Dashboard = () => {
               <h3 className="text-xl font-semibold mb-4">Income vs Expense</h3>
               <IncomeExpenseChart monthData={monthData} />
             </div>
-            <div className="mt-10">
-              <h2 className="text-3xl font-semibold text-gray-900">Financial Overview</h2>
-
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-8">
-                {/* <div className="bg-white p-6 rounded-xl shadow-lg">
-                  <h3 className="text-xl font-semibold mb-4">Income vs Expense</h3>
-                  <IncomeExpenseChart monthData={monthData} />
-                </div> */}
-
-                <div className="bg-white p-6 rounded-xl shadow-lg">
-                  <h3 className="text-xl font-semibold mb-4">Expense Breakdown</h3>
-                  {/* <ExpenseCategoryPieChart todaysData={todaysData} /> */}
-                </div>
-              </div>
-
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-8">
-                <div className="bg-white p-6 rounded-xl shadow-lg">
-                  <h3 className="text-xl font-semibold mb-4">Savings Progress</h3>
-                  {/* <SavingsProgressBarChart savingsData={[monthData.Savings, monthData.Savings_Target]} /> */}
-                </div>
-
-                <div className="bg-white p-6 rounded-xl shadow-lg">
-                  <h3 className="text-xl font-semibold mb-4">Debt vs Savings</h3>
-                  {/* <DebtVsSavingsChart debt={monthData.Debt} savings={monthData.Savings} /> */}
-                </div>
-              </div>
-
-              <div className="bg-white p-6 rounded-xl shadow-lg mt-8">
-                <h3 className="text-xl font-semibold mb-4">Recent Transactions</h3>
-                {/* <RecentTransactions transactions={monthData.Transactions} /> */}
-              </div>
-            </div>
           </div>
         </div>
 
