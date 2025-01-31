@@ -13,6 +13,10 @@ import { IoPersonCircle } from "react-icons/io5";
 import { IoSearch } from "react-icons/io5";
 import { MdDashboard } from "react-icons/md";
 import { BsPersonFill } from "react-icons/bs";
+import { LuBadgeCheck } from "react-icons/lu";
+import { LuBadgeAlert } from "react-icons/lu";
+import { LuBadgeMinus } from "react-icons/lu";
+import { LuBadgePlus } from "react-icons/lu";
 
 
 // Images
@@ -38,6 +42,10 @@ const assets = {
     IoSearch,
     MdDashboard,
     BsPersonFill,
+    LuBadgeCheck,
+    LuBadgeAlert,
+    LuBadgeMinus,
+    LuBadgePlus,
 
     // Images
     OgLogo,

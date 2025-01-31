@@ -63,7 +63,7 @@ const Navbar = () => {
     //     </div>
     //   </div>
     // </div>
-    <div className='nav-shadow h-[60px] flex items-center justify-between px-8 bg-white'>
+    <div className='shadow h-[60px] flex items-center justify-between px-8 bg-white'>
       <div className='flex items-center gap-2 text-gray-800'>
         <IconComponent className="text-[20px]" />
         <p className='font-semibold text-[16px]'>{name}</p>
