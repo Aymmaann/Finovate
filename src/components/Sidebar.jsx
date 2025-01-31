@@ -10,6 +10,7 @@ const Sidebar = () => {
       if(location.pathname === '/') return 'home';
       if(location.pathname === '/dashboard') return 'dashboard';
       if(location.pathname === '/transaction') return 'transaction';
+      if(location.pathname === '/budget') return 'budget';
       if(location.pathname === '/chatbot') return 'chatbot';
       if(location.pathname === '/signin') return 'signin';
       if(location.pathname === '/signup') return 'signup';
@@ -48,6 +49,13 @@ const Sidebar = () => {
                   <assets.FaCreditCard className={`${active === 'transaction'? 'text-white' : 'text-[#0275ff]'}`} />
                 </div>
                 <p className='text-sm font-semibold'>Transaction</p>
+              </Link>
+
+              <Link to='/budget' onClick={() => setActive('budget')} className={`flex items-center gap-3 p-2.5 rounded-2xl ${active === 'budget'? 'bg-[#1a1f37]' : 'bg-transparent'}`}>
+                <div className={`p-2 rounded-xl ${active === 'budget'? 'bg-[#0275ff]' : 'bg-[#1a1f37]'}`}>
+                  <assets.FaWallet className={`${active === 'budget'? 'text-white' : 'text-[#0275ff]'}`} />
+                </div>
+                <p className='text-sm font-semibold'>Budget</p>
               </Link>
 
               <Link to='/chatbot' onClick={() => setActive('chatbot')} className={`flex items-center gap-3 p-2.5 rounded-2xl ${active === 'chatbot'? 'bg-[#1a1f37]' : 'bg-transparent'}`}>

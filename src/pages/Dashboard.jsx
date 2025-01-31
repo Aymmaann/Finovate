@@ -1,4 +1,4 @@
-import { React, useState, useEffect } from 'react'
+import { React, useState, useEffect, useContext } from 'react'
 import Sidebar from '../components/Sidebar'
 import Navbar from '../components/Navbar'
 import jsonData from '../data/data.json'
@@ -8,56 +8,16 @@ import ExpenseCategoryPieChart from '../graphs/EXpenseCategoryPieChart.jsx'
 import SavingsProgressBarChart from '../graphs/SavingProgressBarChart.jsx'
 import DebtVsSavingsChart from '../graphs/DebtVsSavingsChart.jsx'
 import RecentTransactions from '../graphs/RecentTransactions.jsx'
-
-const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-const date = new Date();
-const month = months[date.getMonth()]
+import { useFinance } from '../context/FinovateContext.jsx';
 
 
 const Dashboard = () => { 
-  const [monthData, setMonthData] = useState({})
-  const [todaysData, setTodaysData] = useState({})
-  const [todayIncome, setTodayIncome] = useState(0)
-  const [todayExpense, setTodayExpense] = useState(0)
-  const [todayStatus, setTodayStatus] = useState(0)
   const [active, setActive] = useState('today')
-
-  const formatDate = (date) => {
-    const day = String(date.getDate()).padStart(2, "0");
-    const month = String(date.getMonth() + 1).padStart(2, "0");
-    const year = String(date.getFullYear()).slice(-2);
-    return `${day}/${month}/${year}`;
-  };
-
-  const [todayDate, setTodayDate] = useState(formatDate(date))
-
-  useEffect(() => {
-    const currentMonthData = jsonData.data[month];
-    if (currentMonthData) {
-      setMonthData(currentMonthData);
-      const todayData = currentMonthData[todayDate];
-      if (todayData) {
-        setTodaysData(todayData);
-      } else {
-        console.log('No data available for today:', todayDate);
-      }
-    } else {
-      console.log('No data available for this month:', month);
-    }
-  }, [month, todayDate])
-
-  useEffect(() => {
-    if (todaysData) {
-      const income = todaysData.Income?.Income_total || 0;
-      const expense = todaysData.Expense?.Expense_total || 0;
-
-      setTodayIncome(income)
-      setTodayExpense(expense)
-      setTodayStatus(income-expense)
-      console.log(monthData.Expense)
-      
-    }
-  }, [todaysData])
+  const { monthData, 
+          todaysData, 
+          todayIncome, 
+          todayExpense, 
+          todayStatus } = useFinance()
   
   return (
     <div className='flex'>

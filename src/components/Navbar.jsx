@@ -28,6 +28,9 @@ const Navbar = () => {
       if(location.pathname === '/transaction') {
         return {name:'Transaction', icon: assets.FaCreditCard};
       }
+      if(location.pathname === '/budget') {
+        return {name:'Budget', icon: assets.FaWallet};
+      }
       if(location.pathname === '/chatbot') {
         return {name:'Finbot', icon: assets.RiRobot2Fill};
       }

@@ -1,640 +1,1122 @@
 {
-    "year": "2025",
-    "data": {
-        "Jan": {
-            "01/01/25": {
-                "Income": {
-                    "category": {
-                        "course": 600,
-                        "wages": 100,
-                        "investment": 350,
-                        "freelance": 200
-                    },
-                    "Income_total": 1250
+    "01/25": {
+        "01/01/25": {
+            "Income": {
+                "category": {
+                    "advertisement": 243,
+                    "investment": 390,
+                    "marketing": 112,
+                    "freelance": 96
                 },
-                "Expense": {
-                    "category": {
-                        "Food": 400,
-                        "Travel": 200,
-                        "Groceries": 80,
-                        "Entertainment": 100
-                    },
-                    "Expense_total": 780
-                },
-                "Day_total": 470
+                "Income_total": 841
             },
-            "02/01/25": {
-                "Income": {
-                    "category": {
-                        "course": 500,
-                        "wages": 150,
-                        "investment": 300,
-                        "freelance": 350
-                    },
-                    "Income_total": 1300
+            "Expense": {
+                "category": {
+                    "food": 111,
+                    "clothing": 132,
+                    "debt": 71
                 },
-                "Expense": {
-                    "category": {
-                        "Food": 350,
-                        "Travel": 250,
-                        "Groceries": 100,
-                        "Entertainment": 120
-                    },
-                    "Expense_total": 820
-                },
-                "Day_total": 480
+                "Expense_total": 561
             },
-            "03/01/25": {
-                "Income": {
-                    "category": {
-                        "course": 450,
-                        "wages": 200,
-                        "investment": 400,
-                        "freelance": 300
-                    },
-                    "Income_total": 1350
+            "Day_total": 280
+        },
+        "02/01/25": {
+            "Income": {
+                "category": {
+                    "freelance": 85,
+                    "investment": 280,
+                    "advertisement": 246,
+                    "salary": 348
                 },
-                "Expense": {
-                    "category": {
-                        "Food": 350,
-                        "Travel": 300,
-                        "Groceries": 120,
-                        "Entertainment": 90
-                    },
-                    "Expense_total": 860
-                },
-                "Day_total": 490
+                "Income_total": 959
             },
-            "04/01/25": {
-                "Income": {
-                    "category": {
-                        "course": 447,
-                        "wages": 440,
-                        "investment": 423,
-                        "freelance": 500
-                    },
-                    "Income_total": 1810
+            "Expense": {
+                "category": {
+                    "food": 103,
+                    "clothing": 88,
+                    "bills": 106
                 },
-                "Expense": {
-                    "category": {
-                        "Food": 317,
-                        "Travel": 227,
-                        "Groceries": 146,
-                        "Entertainment": 287
-                    },
-                    "Expense_total": 977
-                },
-                "Day_total": 833
+                "Expense_total": 449
             },
-            "05/01/25": {
-                "Income": {
-                    "category": {
-                        "course": 344,
-                        "wages": 267,
-                        "investment": 441,
-                        "freelance": 50
-                    },
-                    "Income_total": 1102
+            "Day_total": 510
+        },
+        "03/01/25": {
+            "Income": {
+                "category": {
+                    "freelance": 333,
+                    "investment": 168,
+                    "marketing": 397,
+                    "royalty": 434
                 },
-                "Expense": {
-                    "category": {
-                        "Food": 389,
-                        "Travel": 53,
-                        "Groceries": 416,
-                        "Entertainment": 400
-                    },
-                    "Expense_total": 1258
-                },
-                "Day_total": -156
+                "Income_total": 1332
             },
-            "06/01/25": {
-                "Income": {
-                    "category": {
-                        "course": 321,
-                        "wages": 463,
-                        "investment": 150,
-                        "freelance": 462
-                    },
-                    "Income_total": 1396
+            "Expense": {
+                "category": {
+                    "clothing": 194,
+                    "subscription": 128,
+                    "utilities": 126
                 },
-                "Expense": {
-                    "category": {
-                        "Food": 306,
-                        "Travel": 296,
-                        "Groceries": 266,
-                        "Entertainment": 180
-                    },
-                    "Expense_total": 1048
-                },
-                "Day_total": 348
+                "Expense_total": 448
             },
-            "07/01/25": {
-                "Income": {
-                    "category": {
-                        "course": 391,
-                        "wages": 357,
-                        "investment": 270,
-                        "freelance": 295
-                    },
-                    "Income_total": 1313
+            "Day_total": 884
+        },
+        "04/01/25": {
+            "Income": {
+                "category": {
+                    "royalty": 243,
+                    "freelance": 210
                 },
-                "Expense": {
-                    "category": {
-                        "Food": 415,
-                        "Travel": 199,
-                        "Groceries": 267,
-                        "Entertainment": 95
-                    },
-                    "Expense_total": 976
-                },
-                "Day_total": 337
+                "Income_total": 453
             },
-            "08/01/25": {
-                "Income": {
-                    "category": {
-                        "course": 450,
-                        "wages": 332,
-                        "investment": 324,
-                        "freelance": 290
-                    },
-                    "Income_total": 1396
+            "Expense": {
+                "category": {
+                    "bills": 174,
+                    "travel": 40,
+                    "food": 44
                 },
-                "Expense": {
-                    "category": {
-                        "Food": 302,
-                        "Travel": 289,
-                        "Groceries": 380,
-                        "Entertainment": 206
-                    },
-                    "Expense_total": 1177
-                },
-                "Day_total": 219
+                "Expense_total": 480
             },
-            "09/01/25": {
-                "Income": {
-                    "category": {
-                        "course": 412,
-                        "wages": 221,
-                        "investment": 390,
-                        "freelance": 189
-                    },
-                    "Income_total": 1212
+            "Day_total": -27
+        },
+        "05/01/25": {
+            "Income": {
+                "category": {
+                    "investment": 303,
+                    "freelance": 110,
+                    "royalty": 301
                 },
-                "Expense": {
-                    "category": {
-                        "Food": 349,
-                        "Travel": 200,
-                        "Groceries": 250,
-                        "Entertainment": 110
-                    },
-                    "Expense_total": 909
-                },
-                "Day_total": 303
+                "Income_total": 714
             },
-            "10/01/25": {
-                "Income": {
-                    "category": {
-                        "course": 540,
-                        "wages": 310,
-                        "investment": 312,
-                        "freelance": 360
-                    },
-                    "Income_total": 1522
+            "Expense": {
+                "category": {
+                    "utilities": 111,
+                    "groceries": 77,
+                    "bills": 120
                 },
-                "Expense": {
-                    "category": {
-                        "Food": 400,
-                        "Travel": 250,
-                        "Groceries": 310,
-                        "Entertainment": 120
-                    },
-                    "Expense_total": 1080
-                },
-                "Day_total": 442
+                "Expense_total": 308
             },
-            "11/01/25": {
-                "Income": {
-                    "category": {
-                        "course": 470,
-                        "wages": 212,
-                        "investment": 380,
-                        "freelance": 440
-                    },
-                    "Income_total": 1502
+            "Day_total": 406
+        },
+        "06/01/25": {
+            "Income": {
+                "category": {
+                    "investment": 257,
+                    "freelance": 216
                 },
-                "Expense": {
-                    "category": {
-                        "Food": 390,
-                        "Travel": 220,
-                        "Groceries": 160,
-                        "Entertainment": 280
-                    },
-                    "Expense_total": 1050
-                },
-                "Day_total": 452
+                "Income_total": 473
             },
-            "12/01/25": {
-                "Income": {
-                    "category": {
-                        "course": 340,
-                        "wages": 366,
-                        "investment": 280,
-                        "freelance": 550
-                    },
-                    "Income_total": 1536
+            "Expense": {
+                "category": {
+                    "subscription": 114,
+                    "clothing": 180,
+                    "entertainment": 62
                 },
-                "Expense": {
-                    "category": {
-                        "Food": 450,
-                        "Travel": 310,
-                        "Groceries": 330,
-                        "Entertainment": 220
-                    },
-                    "Expense_total": 1310
-                },
-                "Day_total": 226
+                "Expense_total": 594
             },
-            "13/01/25": {
-                "Income": {
-                    "category": {
-                        "course": 380,
-                        "wages": 323,
-                        "investment": 275,
-                        "freelance": 220
-                    },
-                    "Income_total": 1198
+            "Day_total": -121
+        },
+        "07/01/25": {
+            "Income": {
+                "category": {
+                    "freelance": 283,
+                    "royalty": 464
                 },
-                "Expense": {
-                    "category": {
-                        "Food": 345,
-                        "Travel": 199,
-                        "Groceries": 270,
-                        "Entertainment": 110
-                    },
-                    "Expense_total": 924
-                },
-                "Day_total": 274
+                "Income_total": 747
             },
-            "14/01/25": {
-                "Income": {
-                    "category": {
-                        "course": 510,
-                        "wages": 270,
-                        "investment": 420,
-                        "freelance": 280
-                    },
-                    "Income_total": 1480
+            "Expense": {
+                "category": {
+                    "utilities": 67,
+                    "bills": 63,
+                    "subscription": 48,
+                    "entertainment": 61,
+                    "debt": 49
                 },
-                "Expense": {
-                    "category": {
-                        "Food": 260,
-                        "Travel": 450,
-                        "Groceries": 100,
-                        "Entertainment": 150
-                    },
-                    "Expense_total": 960
-                },
-                "Day_total": 520
+                "Expense_total": 288
             },
-            "15/01/25": {
-                "Income": {
-                    "category": {
-                        "course": 450,
-                        "wages": 299,
-                        "investment": 410,
-                        "freelance": 500
-                    },
-                    "Income_total": 1659
+            "Day_total": 459
+        },
+        "08/01/25": {
+            "Income": {
+                "category": {
+                    "royalty": 144,
+                    "investment": 316
                 },
-                "Expense": {
-                    "category": {
-                        "Food": 270,
-                        "Travel": 230,
-                        "Groceries": 420,
-                        "Entertainment": 200
-                    },
-                    "Expense_total": 1120
-                },
-                "Day_total": 539
+                "Income_total": 460
             },
-            "16/01/25": {
-                "Income": {
-                    "category": {
-                        "course": 400,
-                        "wages": 290,
-                        "investment": 390,
-                        "freelance": 300
-                    },
-                    "Income_total": 1380
+            "Expense": {
+                "category": {
+                    "entertainment": 127,
+                    "food": 84,
+                    "debt": 125
                 },
-                "Expense": {
-                    "category": {
-                        "Food": 330,
-                        "Travel": 210,
-                        "Groceries": 350,
-                        "Entertainment": 100
-                    },
-                    "Expense_total": 990
-                },
-                "Day_total": 390
+                "Expense_total": 564
             },
-            "17/01/25": {
-                "Income": {
-                    "category": {
-                        "course": 450,
-                        "wages": 310,
-                        "investment": 350,
-                        "freelance": 290
-                    },
-                    "Income_total": 1400
+            "Day_total": -104
+        },
+        "09/01/25": {
+            "Income": {
+                "category": {
+                    "investment": 218,
+                    "advertisement": 165,
+                    "salary": 306
                 },
-                "Expense": {
-                    "category": {
-                        "Food": 370,
-                        "Travel": 190,
-                        "Groceries": 200,
-                        "Entertainment": 230
-                    },
-                    "Expense_total": 990
-                },
-                "Day_total": 410
+                "Income_total": 689
             },
-            "18/01/25": {
-                "Income": {
-                    "category": {
-                        "course": 350,
-                        "wages": 200,
-                        "investment": 460,
-                        "freelance": 270
-                    },
-                    "Income_total": 1280
+            "Expense": {
+                "category": {
+                    "food": 132,
+                    "subscription": 41,
+                    "clothing": 116,
+                    "groceries": 48
                 },
-                "Expense": {
-                    "category": {
-                        "Food": 320,
-                        "Travel": 180,
-                        "Groceries": 140,
-                        "Entertainment": 250
-                    },
-                    "Expense_total": 890
-                },
-                "Day_total": 390
+                "Expense_total": 502
             },
-            "19/01/25": {
-                "Income": {
-                    "category": {
-                        "course": 500,
-                        "wages": 350,
-                        "investment": 290,
-                        "freelance": 380
-                    },
-                    "Income_total": 1520
+            "Day_total": 187
+        },
+        "10/01/25": {
+            "Income": {
+                "category": {
+                    "investment": 303,
+                    "freelance": 110,
+                    "royalty": 301
                 },
-                "Expense": {
-                    "category": {
-                        "Food": 370,
-                        "Travel": 310,
-                        "Groceries": 290,
-                        "Entertainment": 210
-                    },
-                    "Expense_total": 1180
-                },
-                "Day_total": 340
+                "Income_total": 714
             },
-            "20/01/25": {
-                "Income": {
-                    "category": {
-                        "course": 330,
-                        "wages": 360,
-                        "investment": 450,
-                        "freelance": 370
-                    },
-                    "Income_total": 1510
+            "Expense": {
+                "category": {
+                    "utilities": 111,
+                    "groceries": 77,
+                    "bills": 120
                 },
-                "Expense": {
-                    "category": {
-                        "Food": 310,
-                        "Travel": 350,
-                        "Groceries": 250,
-                        "Entertainment": 180
-                    },
-                    "Expense_total": 1090
-                },
-                "Day_total": 420
+                "Expense_total": 308
             },
-            "21/01/25": {
-                "Income": {
-                    "category": {
-                        "course": 450,
-                        "wages": 380,
-                        "investment": 480,
-                        "freelance": 460
-                    },
-                    "Income_total": 1770
+            "Day_total": 406
+        },
+        "11/01/25": {
+            "Income": {
+                "category": {
+                    "investment": 257,
+                    "freelance": 216
                 },
-                "Expense": {
-                    "category": {
-                        "Food": 400,
-                        "Travel": 320,
-                        "Groceries": 300,
-                        "Entertainment": 240
-                    },
-                    "Expense_total": 1260
-                },
-                "Day_total": 510
+                "Income_total": 473
             },
-            "22/01/25": {
-                "Income": {
-                    "category": {
-                        "course": 410,
-                        "wages": 350,
-                        "investment": 420,
-                        "freelance": 430
-                    },
-                    "Income_total": 1610
+            "Expense": {
+                "category": {
+                    "subscription": 114,
+                    "clothing": 180,
+                    "entertainment": 62
                 },
-                "Expense": {
-                    "category": {
-                        "Food": 300,
-                        "Travel": 280,
-                        "Groceries": 350,
-                        "Entertainment": 210
-                    },
-                    "Expense_total": 1140
-                },
-                "Day_total": 470
+                "Expense_total": 594
             },
-            "23/01/25": {
-                "Income": {
-                    "category": {
-                        "course": 320,
-                        "wages": 420,
-                        "investment": 410,
-                        "freelance": 350
-                    },
-                    "Income_total": 1500
+            "Day_total": -121
+        },
+        "12/01/25": {
+            "Income": {
+                "category": {
+                    "freelance": 283,
+                    "royalty": 464
                 },
-                "Expense": {
-                    "category": {
-                        "Food": 310,
-                        "Travel": 240,
-                        "Groceries": 310,
-                        "Entertainment": 170
-                    },
-                    "Expense_total": 1030
-                },
-                "Day_total": 470
+                "Income_total": 747
             },
-            "24/01/25": {
-                "Income": {
-                    "category": {
-                        "course": 370,
-                        "wages": 300,
-                        "investment": 380,
-                        "freelance": 460
-                    },
-                    "Income_total": 1510
+            "Expense": {
+                "category": {
+                    "utilities": 67,
+                    "bills": 63,
+                    "subscription": 48,
+                    "entertainment": 61,
+                    "debt": 49
                 },
-                "Expense": {
-                    "category": {
-                        "Food": 320,
-                        "Travel": 350,
-                        "Groceries": 270,
-                        "Entertainment": 220
-                    },
-                    "Expense_total": 1160
-                },
-                "Day_total": 350
+                "Expense_total": 288
             },
-            "25/01/25": {
-                "Income": {
-                    "category": {
-                        "course": 420,
-                        "wages": 270,
-                        "investment": 380,
-                        "freelance": 400
-                    },
-                    "Income_total": 1470
+            "Day_total": 459
+        },
+        "13/01/25": {
+            "Income": {
+                "category": {
+                    "investment": 494,
+                    "freelance": 407
                 },
-                "Expense": {
-                    "category": {
-                        "Food": 310,
-                        "Travel": 290,
-                        "Groceries": 300,
-                        "Entertainment": 220
-                    },
-                    "Expense_total": 1120
-                },
-                "Day_total": 350
+                "Income_total": 901
             },
-            "26/01/25": {
-                "Income": {
-                    "category": {
-                        "course": 390,
-                        "wages": 330,
-                        "investment": 380,
-                        "freelance": 300
-                    },
-                    "Income_total": 1400
+            "Expense": {
+                "category": {
+                    "entertainment": 116,
+                    "subscription": 91,
+                    "bills": 198
                 },
-                "Expense": {
-                    "category": {
-                        "Food": 310,
-                        "Travel": 250,
-                        "Groceries": 270,
-                        "Entertainment": 180
-                    },
-                    "Expense_total": 1010
-                },
-                "Day_total": 390
+                "Expense_total": 405
             },
-            "27/01/25": {
-                "Income": {
-                    "category": {
-                        "course": 330,
-                        "wages": 320,
-                        "investment": 390,
-                        "freelance": 500
-                    },
-                    "Income_total": 1540
+            "Day_total": 496
+        },
+        "14/01/25": {
+            "Income": {
+                "category": {
+                    "advertisement": 185,
+                    "freelance": 181,
+                    "royalty": 299,
+                    "salary": 382
                 },
-                "Expense": {
-                    "category": {
-                        "Food": 330,
-                        "Travel": 220,
-                        "Groceries": 280,
-                        "Entertainment": 210
-                    },
-                    "Expense_total": 1040
-                },
-                "Day_total": 500
+                "Income_total": 1047
             },
-            "28/01/25": {
-                "Income": {
-                    "category": {
-                        "course": 350,
-                        "wages": 300,
-                        "investment": 450,
-                        "freelance": 480
-                    },
-                    "Income_total": 1580
+            "Expense": {
+                "category": {
+                    "food": 128,
+                    "entertainment": 66
                 },
-                "Expense": {
-                    "category": {
-                        "Food": 330,
-                        "Travel": 250,
-                        "Groceries": 310,
-                        "Entertainment": 180
-                    },
-                    "Expense_total": 1070
-                },
-                "Day_total": 510
+                "Expense_total": 194
             },
-            "29/01/25": {
-                "Income": {
-                    "category": {
-                        "course": 400,
-                        "wages": 330,
-                        "investment": 420,
-                        "freelance": 360
-                    },
-                    "Income_total": 1510
+            "Day_total": 853
+        },
+        "15/01/25": {
+            "Income": {
+                "category": {
+                    "advertisement": 243,
+                    "investment": 390,
+                    "marketing": 112,
+                    "freelance": 96
                 },
-                "Expense": {
-                    "category": {
-                        "Food": 300,
-                        "Travel": 280,
-                        "Groceries": 280,
-                        "Entertainment": 210
-                    },
-                    "Expense_total": 1070
-                },
-                "Day_total": 440
+                "Income_total": 841
             },
-            "30/01/25": {
-                "Income": {
-                    "category": {
-                        "course": 450,
-                        "wages": 250,
-                        "investment": 380,
-                        "freelance": 430
-                    },
-                    "Income_total": 1510
+            "Expense": {
+                "category": {
+                    "food": 111,
+                    "clothing": 132,
+                    "debt": 71
                 },
-                "Expense": {
-                    "category": {
-                        "Food": 310,
-                        "Travel": 250,
-                        "Groceries": 320,
-                        "Entertainment": 190
-                    },
-                    "Expense_total": 1670
-                },
-                "Day_total": 440
+                "Expense_total": 561
             },
-            "Month_Income": 40749,
-            "Month_Expense": 30060,
-            "Month_Total": 13585
-        }
+            "Day_total": 280
+        },
+        "16/01/25": {
+            "Income": {
+                "category": {
+                    "royalty": 144,
+                    "investment": 316
+                },
+                "Income_total": 460
+            },
+            "Expense": {
+                "category": {
+                    "entertainment": 127,
+                    "food": 84,
+                    "debt": 125
+                },
+                "Expense_total": 564
+            },
+            "Day_total": -104
+        },
+        "17/01/25": {
+            "Income": {
+                "category": {
+                    "investment": 218,
+                    "advertisement": 165,
+                    "salary": 306
+                },
+                "Income_total": 689
+            },
+            "Expense": {
+                "category": {
+                    "food": 132,
+                    "subscription": 41,
+                    "clothing": 116,
+                    "groceries": 48
+                },
+                "Expense_total": 502
+            },
+            "Day_total": 187
+        },
+        "18/01/25": {
+            "Income": {
+                "category": {
+                    "investment": 303,
+                    "freelance": 110,
+                    "royalty": 301
+                },
+                "Income_total": 714
+            },
+            "Expense": {
+                "category": {
+                    "utilities": 111,
+                    "groceries": 77,
+                    "bills": 120
+                },
+                "Expense_total": 308
+            },
+            "Day_total": 406
+        },
+        "19/01/25": {
+            "Income": {
+                "category": {
+                    "advertisement": 185,
+                    "freelance": 181,
+                    "royalty": 299,
+                    "salary": 382
+                },
+                "Income_total": 1047
+            },
+            "Expense": {
+                "category": {
+                    "food": 128,
+                    "entertainment": 66
+                },
+                "Expense_total": 194
+            },
+            "Day_total": 853
+        },
+        "20/01/25": {
+            "Income": {
+                "category": {
+                    "investment": 274,
+                    "salary": 234,
+                    "advertisement": 188,
+                    "freelance": 325
+                },
+                "Income_total": 1021
+            },
+            "Expense": {
+                "category": {
+                    "debt": 199,
+                    "groceries": 128,
+                    "bills": 145,
+                    "entertainment": 99
+                },
+                "Expense_total": 571
+            },
+            "Day_total": 450
+        },
+        "21/01/25": {
+            "Income": {
+                "category": {
+                    "freelance": 479,
+                    "royalty": 308,
+                    "marketing": 234
+                },
+                "Income_total": 1021
+            },
+            "Expense": {
+                "category": {
+                    "subscription": 77,
+                    "food": 51,
+                    "clothing": 152,
+                    "groceries": 83,
+                    "travel": 192
+                },
+                "Expense_total": 555
+            },
+            "Day_total": 466
+        },
+        "22/01/25": {
+            "Income": {
+                "category": {
+                    "marketing": 446,
+                    "freelance": 168
+                },
+                "Income_total": 614
+            },
+            "Expense": {
+                "category": {
+                    "clothing": 115,
+                    "travel": 130,
+                    "entertainment": 86,
+                    "debt": 68
+                },
+                "Expense_total": 545
+            },
+            "Day_total": 69
+        },
+        "23/01/25": {
+            "Income": {
+                "category": {
+                    "investment": 494,
+                    "freelance": 407
+                },
+                "Income_total": 901
+            },
+            "Expense": {
+                "category": {
+                    "entertainment": 116,
+                    "subscription": 91,
+                    "bills": 198
+                },
+                "Expense_total": 405
+            },
+            "Day_total": 496
+        },
+        "24/01/25": {
+            "Income": {
+                "category": {
+                    "advertisement": 185,
+                    "freelance": 181,
+                    "royalty": 299,
+                    "salary": 382
+                },
+                "Income_total": 1047
+            },
+            "Expense": {
+                "category": {
+                    "food": 128,
+                    "entertainment": 66
+                },
+                "Expense_total": 194
+            },
+            "Day_total": 853
+        },
+        "25/01/25": {
+            "Income": {
+                "category": {
+                    "investment": 274,
+                    "salary": 234,
+                    "advertisement": 188,
+                    "freelance": 325
+                },
+                "Income_total": 1021
+            },
+            "Expense": {
+                "category": {
+                    "debt": 199,
+                    "groceries": 128,
+                    "bills": 145,
+                    "entertainment": 99
+                },
+                "Expense_total": 571
+            },
+            "Day_total": 450
+        },
+        "26/01/25": {
+            "Income": {
+                "category": {
+                    "freelance": 408,
+                    "marketing": 313
+                },
+                "Income_total": 721
+            },
+            "Expense": {
+                "category": {
+                    "groceries": 152,
+                    "clothing": 132,
+                    "subscription": 124
+                },
+                "Expense_total": 408
+            },
+            "Day_total": 313
+        },
+        "27/01/25": {
+            "Income": {
+                "category": {
+                    "royalty": 214,
+                    "salary": 440,
+                    "investment": 169,
+                    "freelance": 231
+                },
+                "Income_total": 1054
+            },
+            "Expense": {
+                "category": {
+                    "utilities": 77,
+                    "bills": 46,
+                    "subscription": 160
+                },
+                "Expense_total": 422
+            },
+            "Day_total": 632
+        },
+        "28/01/25": {
+            "Income": {
+                "category": {
+                    "freelance": 283,
+                    "royalty": 464
+                },
+                "Income_total": 747
+            },
+            "Expense": {
+                "category": {
+                    "utilities": 67,
+                    "bills": 63,
+                    "subscription": 48,
+                    "entertainment": 61,
+                    "debt": 49
+                },
+                "Expense_total": 288
+            },
+            "Day_total": 459
+        },
+        "29/01/25": {
+            "Income": {
+                "category": {
+                    "royalty": 144,
+                    "investment": 316
+                },
+                "Income_total": 460
+            },
+            "Expense": {
+                "category": {
+                    "entertainment": 127,
+                    "food": 84,
+                    "debt": 125
+                },
+                "Expense_total": 564
+            },
+            "Day_total": -104
+        },
+        "30/01/25": {
+            "Income": {
+                "category": {
+                    "investment": 218,
+                    "advertisement": 165,
+                    "salary": 306
+                },
+                "Income_total": 689
+            },
+            "Expense": {
+                "category": {
+                    "food": 132,
+                    "subscription": 41,
+                    "clothing": 116,
+                    "groceries": 48
+                },
+                "Expense_total": 502
+            },
+            "Day_total": 187
+        },
+        "31/01/25": {
+            "Income": {
+                "category": {
+                    "investment": 303,
+                    "freelance": 110,
+                    "royalty": 301
+                },
+                "Income_total": 714
+            },
+            "Expense": {
+                "category": {
+                    "utilities": 111,
+                    "groceries": 77,
+                    "bills": 120
+                },
+                "Expense_total": 308
+            },
+            "Day_total": 406
+        },
+        "Month_Income": 24311,
+        "Month_Expense": 13445,
+        "Month_Total": 10866
+    },
+    "02/25" : {
+        "01/02/25": {
+            "Income": {
+                "category": {
+                    "investment": 314,
+                    "freelance": 206,
+                    "royalty": 237
+                },
+                "Income_total": 757
+            },
+            "Expense": {
+                "category": {
+                    "food": 134,
+                    "clothing": 98,
+                    "debt": 149
+                },
+                "Expense_total": 381
+            },
+            "Day_total": 376
+        },
+        "02/02/25": {
+            "Income": {
+                "category": {
+                    "freelance": 227,
+                    "advertisement": 189
+                },
+                "Income_total": 416
+            },
+            "Expense": {
+                "category": {
+                    "utilities": 121,
+                    "subscription": 90,
+                    "food": 107,
+                    "groceries": 73
+                },
+                "Expense_total": 391
+            },
+            "Day_total": 25
+        },
+        "03/02/25": {
+            "Income": {
+                "category": {
+                    "freelance": 347,
+                    "investment": 276
+                },
+                "Income_total": 623
+            },
+            "Expense": {
+                "category": {
+                    "food": 130,
+                    "clothing": 106,
+                    "entertainment": 112
+                },
+                "Expense_total": 348
+            },
+            "Day_total": 275
+        },
+        "04/02/25": {
+            "Income": {
+                "category": {
+                    "advertisement": 324,
+                    "marketing": 283,
+                    "royalty": 198
+                },
+                "Income_total": 805
+            },
+            "Expense": {
+                "category": {
+                    "subscription": 128,
+                    "food": 88,
+                    "groceries": 114,
+                    "travel": 76
+                },
+                "Expense_total": 406
+            },
+            "Day_total": 399
+        },
+        "05/02/25": {
+            "Income": {
+                "category": {
+                    "investment": 268,
+                    "salary": 342,
+                    "freelance": 158
+                },
+                "Income_total": 768
+            },
+            "Expense": {
+                "category": {
+                    "utilities": 104,
+                    "clothing": 58,
+                    "groceries": 67
+                },
+                "Expense_total": 229
+            },
+            "Day_total": 539
+        },
+        "06/02/25": {
+            "Income": {
+                "category": {
+                    "freelance": 267,
+                    "advertisement": 179
+                },
+                "Income_total": 446
+            },
+            "Expense": {
+                "category": {
+                    "bills": 92,
+                    "food": 111,
+                    "subscription": 50,
+                    "entertainment": 82
+                },
+                "Expense_total": 335
+            },
+            "Day_total": 111
+        },
+        "07/02/25": {
+            "Income": {
+                "category": {
+                    "investment": 235,
+                    "salary": 410
+                },
+                "Income_total": 645
+            },
+            "Expense": {
+                "category": {
+                    "subscription": 100,
+                    "clothing": 107,
+                    "entertainment": 90
+                },
+                "Expense_total": 297
+            },
+            "Day_total": 348
+        },
+        "08/02/25": {
+            "Income": {
+                "category": {
+                    "freelance": 323,
+                    "royalty": 191
+                },
+                "Income_total": 514
+            },
+            "Expense": {
+                "category": {
+                    "food": 137,
+                    "groceries": 75,
+                    "bills": 128
+                },
+                "Expense_total": 340
+            },
+            "Day_total": 174
+        },
+        "09/02/25": {
+            "Income": {
+                "category": {
+                    "marketing": 324,
+                    "investment": 216,
+                    "freelance": 206
+                },
+                "Income_total": 746
+            },
+            "Expense": {
+                "category": {
+                    "utilities": 63,
+                    "subscription": 80,
+                    "clothing": 117
+                },
+                "Expense_total": 260
+            },
+            "Day_total": 486
+        },
+        "10/02/25": {
+            "Income": {
+                "category": {
+                    "advertisement": 398,
+                    "freelance": 264
+                },
+                "Income_total": 662
+            },
+            "Expense": {
+                "category": {
+                    "subscription": 126,
+                    "food": 89,
+                    "groceries": 55
+                },
+                "Expense_total": 270
+            },
+            "Day_total": 392
+        },
+        "11/02/25": {
+            "Income": {
+                "category": {
+                    "royalty": 281,
+                    "investment": 272,
+                    "salary": 350
+                },
+                "Income_total": 903
+            },
+            "Expense": {
+                "category": {
+                    "entertainment": 76,
+                    "food": 124,
+                    "bills": 106,
+                    "travel": 68
+                },
+                "Expense_total": 374
+            },
+            "Day_total": 529
+        },
+        "12/02/25": {
+            "Income": {
+                "category": {
+                    "investment": 348,
+                    "freelance": 162
+                },
+                "Income_total": 510
+            },
+            "Expense": {
+                "category": {
+                    "food": 103,
+                    "subscription": 116,
+                    "clothing": 79
+                },
+                "Expense_total": 298
+            },
+            "Day_total": 212
+        },
+        "13/02/25": {
+            "Income": {
+                "category": {
+                    "freelance": 319,
+                    "advertisement": 138
+                },
+                "Income_total": 457
+            },
+            "Expense": {
+                "category": {
+                    "food": 132,
+                    "subscription": 102,
+                    "bills": 96,
+                    "entertainment": 79
+                },
+                "Expense_total": 409
+            },
+            "Day_total": 48
+        },
+        "14/02/25": {
+            "Income": {
+                "category": {
+                    "freelance": 245,
+                    "marketing": 211
+                },
+                "Income_total": 456
+            },
+            "Expense": {
+                "category": {
+                    "clothing": 111,
+                    "travel": 132
+                },
+                "Expense_total": 243
+            },
+            "Day_total": 213
+        },
+        "15/02/25": {
+            "Income": {
+                "category": {
+                    "royalty": 398,
+                    "freelance": 318
+                },
+                "Income_total": 716
+            },
+            "Expense": {
+                "category": {
+                    "utilities": 88,
+                    "food": 95,
+                    "clothing": 125,
+                    "subscription": 76
+                },
+                "Expense_total": 384
+            },
+            "Day_total": 332
+        },
+        "16/02/25": {
+            "Income": {
+                "category": {
+                    "investment": 290,
+                    "freelance": 175
+                },
+                "Income_total": 465
+            },
+            "Expense": {
+                "category": {
+                    "food": 132,
+                    "subscription": 94,
+                    "groceries": 108
+                },
+                "Expense_total": 334
+            },
+            "Day_total": 131
+        },
+        "17/02/25": {
+            "Income": {
+                "category": {
+                    "royalty": 362,
+                    "marketing": 213
+                },
+                "Income_total": 575
+            },
+            "Expense": {
+                "category": {
+                    "entertainment": 105,
+                    "travel": 101,
+                    "clothing": 85
+                },
+                "Expense_total": 291
+            },
+            "Day_total": 284
+        },
+        "18/02/25": {
+            "Income": {
+                "category": {
+                    "freelance": 287,
+                    "advertisement": 173
+                },
+                "Income_total": 460
+            },
+            "Expense": {
+                "category": {
+                    "food": 102,
+                    "groceries": 62,
+                    "subscription": 85
+                },
+                "Expense_total": 249
+            },
+            "Day_total": 211
+        },
+        "19/02/25": {
+            "Income": {
+                "category": {
+                    "salary": 407,
+                    "advertisement": 283
+                },
+                "Income_total": 690
+            },
+            "Expense": {
+                "category": {
+                    "subscription": 124,
+                    "food": 107,
+                    "utilities": 65
+                },
+                "Expense_total": 296
+            },
+            "Day_total": 394
+        },
+        "20/02/25": {
+            "Income": {
+                "category": {
+                    "freelance": 273,
+                    "investment": 291
+                },
+                "Income_total": 564
+            },
+            "Expense": {
+                "category": {
+                    "food": 132,
+                    "entertainment": 93,
+                    "travel": 115
+                },
+                "Expense_total": 340
+            },
+            "Day_total": 224
+        },
+        "21/02/25": {
+            "Income": {
+                "category": {
+                    "freelance": 213,
+                    "royalty": 219
+                },
+                "Income_total": 432
+            },
+            "Expense": {
+                "category": {
+                    "utilities": 107,
+                    "clothing": 128
+                },
+                "Expense_total": 235
+            },
+            "Day_total": 197
+        },
+        "22/02/25": {
+            "Income": {
+                "category": {
+                    "investment": 287,
+                    "freelance": 217
+                },
+                "Income_total": 504
+            },
+            "Expense": {
+                "category": {
+                    "entertainment": 82,
+                    "food": 133,
+                    "subscription": 106
+                },
+                "Expense_total": 321
+            },
+            "Day_total": 183
+        },
+        "23/02/25": {
+            "Income": {
+                "category": {
+                    "freelance": 227,
+                    "royalty": 276
+                },
+                "Income_total": 503
+            },
+            "Expense": {
+                "category": {
+                    "food": 112,
+                    "groceries": 78,
+                    "bills": 96
+                },
+                "Expense_total": 286
+            },
+            "Day_total": 217
+        },
+        "24/02/25": {
+            "Income": {
+                "category": {
+                    "investment": 310,
+                    "freelance": 231
+                },
+                "Income_total": 541
+            },
+            "Expense": {
+                "category": {
+                    "food": 121,
+                    "clothing": 100,
+                    "utilities": 65
+                },
+                "Expense_total": 286
+            },
+            "Day_total": 255
+        },
+        "25/02/25": {
+            "Income": {
+                "category": {
+                    "advertisement": 359,
+                    "freelance": 274
+                },
+                "Income_total": 633
+            },
+            "Expense": {
+                "category": {
+                    "subscription": 82,
+                    "food": 116,
+                    "groceries": 120
+                },
+                "Expense_total": 318
+            },
+            "Day_total": 315
+        },
+        "26/02/25": {
+            "Income": {
+                "category": {
+                    "salary": 398,
+                    "freelance": 178
+                },
+                "Income_total": 576
+            },
+            "Expense": {
+                "category": {
+                    "food": 117,
+                    "clothing": 101,
+                    "groceries": 91
+                },
+                "Expense_total": 309
+            },
+            "Day_total": 267
+        },
+        "27/02/25": {
+            "Income": {
+                "category": {
+                    "investment": 283,
+                    "freelance": 306
+                },
+                "Income_total": 589
+            },
+            "Expense": {
+                "category": {
+                    "subscription": 122,
+                    "food": 118,
+                    "clothing": 76
+                },
+                "Expense_total": 316
+            },
+            "Day_total": 273
+        },
+        "28/02/25": {
+            "Income": {
+                "category": {
+                    "freelance": 271,
+                    "advertisement": 209
+                },
+                "Income_total": 480
+            },
+            "Expense": {
+                "category": {
+                    "food": 107,
+                    "groceries": 95,
+                    "clothing": 90
+                },
+                "Expense_total": 292
+            },
+            "Day_total": 188
+        },
+        "Month_Income": 16436,
+        "Month_Expense": 8838,
+        "Month_Total": 7598
     }
 }

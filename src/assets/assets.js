@@ -17,6 +17,7 @@ import { LuBadgeCheck } from "react-icons/lu";
 import { LuBadgeAlert } from "react-icons/lu";
 import { LuBadgeMinus } from "react-icons/lu";
 import { LuBadgePlus } from "react-icons/lu";
+import { FaWallet } from "react-icons/fa";
 
 
 // Images
@@ -46,6 +47,7 @@ const assets = {
     LuBadgeAlert,
     LuBadgeMinus,
     LuBadgePlus,
+    FaWallet,
 
     // Images
     OgLogo,

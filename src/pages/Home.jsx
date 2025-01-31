@@ -7,6 +7,7 @@ import assets from '../assets/assets';
  export const navigation = [
   { name: 'Dashboard', href: '/dashboard' },
   { name: 'Transaction', href: '/transaction' },
+  { name: 'Budget', href: '/budget' },
   { name: 'FinBot', href: '/chatbot' },
 ]
 

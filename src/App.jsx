@@ -7,12 +7,14 @@ import Transaction from './pages/Transaction'
 import SignIn from './pages/SignIn'
 import SignUp from './pages/SignUp'
 import Home from './pages/Home'
+import Budget from './pages/Budget'
+import { FinanceProvider } from './context/FinovateContext'
 
 function App() {
   const location = useLocation(); 
 
   return (
-    <div>
+    <FinanceProvider>
       <Routes location={location} key={location.pathname}> 
         <Route path='/' element={
           <motion.div 
@@ -54,6 +56,16 @@ function App() {
             <Transaction />
           </motion.div>
         } />
+        <Route path='/budget' element={
+          <motion.div 
+            initial={{ opacity: 0 }} 
+            animate={{ opacity: 1 }} 
+            exit={{ opacity: 0 }} 
+            transition={{ duration: 0.3 }}
+          >
+            <Budget />
+          </motion.div>
+        } />
         <Route path='/signin' element={
           <motion.div 
             initial={{ opacity: 0 }} 
@@ -75,7 +87,7 @@ function App() {
           </motion.div>
         } />
       </Routes>
-    </div>
+    </FinanceProvider>
   )
 }
 
