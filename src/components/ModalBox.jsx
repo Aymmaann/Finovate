@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import assets from "../assets/assets.js"
 
-const ModalBox = ({ setIsModalOpen, budgets, setBudgets }) => {
+const ModalBox = ({ setIsModalOpen, budgets, setBudgets, setToastMessage }) => {
   const [budgetCategory, setBudgetCategory] = useState('')
   const [budgetAmt, setBudgetAmt] = useState(0)
   const [isCategoryEmpty, setIsCategoryEmpty] = useState(false)
@@ -18,6 +18,10 @@ const ModalBox = ({ setIsModalOpen, budgets, setBudgets }) => {
       setIsCategoryEmpty(false)
       setIsAmountEmpty(false)
       setIsModalOpen(false)
+      setToastMessage({
+        isShown: true,
+        message: "Budget Created"
+      })
     }
     if(budgetCategory === '') {
       setIsCategoryEmpty(true)

@@ -2,11 +2,11 @@ import React, { useContext, useEffect, useState } from 'react'
 import { useFinance } from '../context/FinovateContext'
 
 const BudgetComponent = ({ category, amount }) => {
-  const { categoryTotals } = useFinance()
+  const { expenseTotals } = useFinance()
 
   useEffect(() => {
-    console.log(categoryTotals);
-  }, [categoryTotals])
+    console.log(expenseTotals);
+  }, [expenseTotals])
 
   const getLength = (usedBudget, budget) => {
     if(usedBudget >= budget) {
@@ -16,10 +16,10 @@ const BudgetComponent = ({ category, amount }) => {
     }
   }
 
-  const usedBudget = categoryTotals[category.toLocaleLowerCase()] || 0;
+  const usedBudget = expenseTotals[category.toLocaleLowerCase()] || 0;
 
   return (
-    <div className='rounded-xl bg-white border border-gray-300 shadow w-[330px] h-[200px] p-6'>
+    <div className='rounded-xl bg-white border border-gray-300 shadow  h-[200px] p-6'>
         <div className="flex justify-between items-center">
           <p className="text-2xl font-semibold text-gray-800">{category}</p>
           <p className="text-2xl font-semibold text-indigo-600">${amount}</p>

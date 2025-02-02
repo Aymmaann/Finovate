@@ -5,10 +5,25 @@ import assets from "../assets/assets.js"
 import Modal from 'react-modal';
 import ModalBox from '../components/ModalBox.jsx'
 import BudgetComponent from '../components/BudgetComponent.jsx';
+import Toast from '../components/Toast.jsx';
+import { useFinance } from '../context/FinovateContext.jsx';
 
 const Budget = () => {
+  const { budgets, setBudgets } = useFinance()
   const [isModalOpen, setIsModalOpen] = useState(false)
-  const [budgets, setBudgets] = useState([])
+  // const [budgets, setBudgets] = useState([])
+  const [toastMessage, setToastMessage] = useState({
+    isShown: false,
+    message: "",
+    type: "add"
+  })
+
+  const handleCloseToast = () => {
+    setToastMessage({
+        isShown: false,
+        message: ""
+    })
+  }
 
   return (
     <div className='flex'>
@@ -35,15 +50,15 @@ const Budget = () => {
           <h1 className="text-4xl font-semibold text-gray-900">My Budgets</h1>
 
           {/* Budget Card Section */}
-          <div className='flex flex-wrap gap-5 mt-10'>
-            <div className='rounded-xl bg-white border border-gray-300 border-dashed shadow w-[330px] h-[200px] p-12'>
+          <div className='grid grid-cols-3 gap-5 mt-10'>
+            <div className='rounded-xl bg-white border border-gray-300 border-dashed shadow h-[200px] p-12'>
               <div 
-                className="hover:bg-[#f3dff4] rounded-full p-3 w-[50px] mx-auto cursor-pointer smooth-transition"
+                className="hover:text-indigo-600 rounded-full p-3 w-[56px] mx-auto cursor-pointer smooth-transition"
                 onClick={() => setIsModalOpen(true)}
               >
-                <assets.FaPlus className="text-[26px]" />
+                <assets.RiFunctionAddFill className="text-[33px]" />
               </div>
-              <p className="text-center mt-4">Create new budget</p>
+              <p className="text-center mt-2 font-medium">Create new budget</p>
             </div>
             {budgets.length>0 && budgets.map((budget,index) => (
               <BudgetComponent category={budget.category} amount={budget.amount} key={index} />
@@ -64,17 +79,13 @@ const Budget = () => {
             contentLabel=""
             className="w-[33%] max-h-3/4 border-[1px] border-zinc-800 bg-blackbg rounded-xl mx-auto mt-44 overflow-scroll outline-none" 
         >
-          <ModalBox setIsModalOpen={setIsModalOpen} budgets={budgets} setBudgets={setBudgets} />
-        {/* <AddEditNotes
-            type={openAddEditModal.type}
-            noteData={openAddEditModal.data}
-            onClose={() => {
-                setOpenAddEditModal({ isShown: false, type: "add", data: null })
-            }}
-            getAllNotes={getAllNotes}
-            showToastMessage={showToastMessage}
-        /> */}
+          <ModalBox setIsModalOpen={setIsModalOpen} budgets={budgets} setBudgets={setBudgets} setToastMessage={setToastMessage} />
         </Modal> 
+        <Toast
+            isShown={toastMessage.isShown}
+            message={toastMessage.message}
+            onClose={handleCloseToast}
+        />
 
 
 

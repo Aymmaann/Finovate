@@ -10,7 +10,9 @@ export const FinanceProvider = ({ children }) => {
     const [todayExpense, setTodayExpense] = useState(0);
     const [todayStatus, setTodayStatus] = useState(0);
     const [todayDate, setTodayDate] = useState(formatDate(new Date()));
-    const [categoryTotals, setCategoryTotals] = useState({});
+    const [expenseTotals, setExpenseTotals] = useState({});
+    const [budgets,setBudgets] = useState([])
+    const [isDataLoaded, setIsDataLoaded] = useState(false);
 
     useEffect(() => {
         const interval = setInterval(() => {
@@ -68,9 +70,25 @@ export const FinanceProvider = ({ children }) => {
                 })
             }
         })
-        setCategoryTotals(totals);
+        setExpenseTotals(totals);
+        setIsDataLoaded(true);
       }
     }, [monthData])
+
+    if (!isDataLoaded) {
+      return (
+        <div className="w-screen h-screen flex flex-col items-center justify-center text-center">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 150" width={100}>
+            <path fill="none" stroke="#5046E4" stroke-width="12" stroke-linecap="round" stroke-dasharray="300 385" stroke-dashoffset="0" d="M275 75c0 31-27 50-50 50-58 0-92-100-150-100-28 0-50 22-50 50s23 50 50 50c58 0 92-100 150-100 24 0 50 19 50 50Z">
+              <animate attributeName="stroke-dashoffset" calcMode="spline" dur="2" values="685;-685" keySplines="0 0 1 1" repeatCount="indefinite"></animate>
+            </path>
+          </svg>
+          <p className="mt-2">Fetching your data...</p>
+        </div>
+
+      )
+  }
+    
 
     return (
         <FinovateContext.Provider value = {{
@@ -80,7 +98,9 @@ export const FinanceProvider = ({ children }) => {
             todayExpense,
             todayStatus,
             todayDate,
-            categoryTotals,
+            expenseTotals,
+            budgets, setBudgets,
+            isDataLoaded
         }}>
             {children}
         </FinovateContext.Provider>

@@ -3,6 +3,7 @@ import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Link } from 'react-router-dom';
 import assets from '../assets/assets';
+import { useFinance } from '../context/FinovateContext';
 
  export const navigation = [
   { name: 'Dashboard', href: '/dashboard' },
@@ -13,6 +14,9 @@ import assets from '../assets/assets';
 
 const Home = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const  { expenseTotals } = useFinance()
+  console.log(expenseTotals);
+  
 
   return (
     <div className="bg-white h-screen">
