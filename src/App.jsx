@@ -15,6 +15,7 @@ function App() {
 
   return (
     <FinanceProvider>
+      {/* <h1 className='px-5'>Hello</h1> */}
       <Routes location={location} key={location.pathname}> 
         <Route path='/' element={
           <motion.div 

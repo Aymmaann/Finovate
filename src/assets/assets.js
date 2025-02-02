@@ -18,6 +18,8 @@ import { LuBadgeAlert } from "react-icons/lu";
 import { LuBadgeMinus } from "react-icons/lu";
 import { LuBadgePlus } from "react-icons/lu";
 import { FaWallet } from "react-icons/fa";
+import { FaPlus } from "react-icons/fa";
+import { IoCloseSharp } from "react-icons/io5";
 
 
 // Images
@@ -48,6 +50,8 @@ const assets = {
     LuBadgeMinus,
     LuBadgePlus,
     FaWallet,
+    FaPlus,
+    IoCloseSharp,
 
     // Images
     OgLogo,

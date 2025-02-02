@@ -10,6 +10,7 @@ export const FinanceProvider = ({ children }) => {
     const [todayExpense, setTodayExpense] = useState(0);
     const [todayStatus, setTodayStatus] = useState(0);
     const [todayDate, setTodayDate] = useState(formatDate(new Date()));
+    const [categoryTotals, setCategoryTotals] = useState({});
 
     useEffect(() => {
         const interval = setInterval(() => {
@@ -50,6 +51,27 @@ export const FinanceProvider = ({ children }) => {
         }
     }, [todaysData])
 
+    useEffect(() => {
+      if(monthData) {
+        const totals = {}
+        Object.keys(monthData).forEach((dayKey) => {
+            const day = monthData[dayKey]
+            const expenseCategories = day.Expense?.category
+            
+            if(expenseCategories) {
+                Object.keys(expenseCategories).forEach((category) => {
+                    if(totals[category]) {
+                        totals[category] += expenseCategories[category]
+                    } else {
+                        totals[category] = expenseCategories[category]
+                    }
+                })
+            }
+        })
+        setCategoryTotals(totals);
+      }
+    }, [monthData])
+
     return (
         <FinovateContext.Provider value = {{
             monthData,
@@ -58,6 +80,7 @@ export const FinanceProvider = ({ children }) => {
             todayExpense,
             todayStatus,
             todayDate,
+            categoryTotals,
         }}>
             {children}
         </FinovateContext.Provider>

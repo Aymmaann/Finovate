@@ -1,22 +1,22 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import tailwindcss from '@tailwindcss/vite'
+// import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [
     react(),
-    tailwindcss({
-      config: {
-        theme: {
-          extend: {
-            backgroundImage: {
-              'custom-button-gradient': 'linear-gradient(to right, #1dc8fd, #0890ff)',
-            },
-          },
-        },
-      },
-    }),
+    // tailwindcss({
+    //   config: {
+    //     theme: {
+    //       extend: {
+    //         backgroundImage: {
+    //           'custom-button-gradient': 'linear-gradient(to right, #1dc8fd, #0890ff)',
+    //         },
+    //       },
+    //     },
+    //   },
+    // }),
   ],
 })
 

@@ -19,7 +19,7 @@ const Sidebar = () => {
   const [active, setActive] = useState(getActiveLocation);
 
   return (
-    <div className='block fixed overflow-y-auto w-64 bg-[#0b0a23] bg-opacity-60 h-screen'>
+    <div className='block fixed overflow-y-auto w-64 bg-[#101828] h-screen'>
         <div className='p-4 h-full'>
           <div>
             <div className='flex items-center justify-center gap-1 mt-3 mb-2'>
@@ -55,7 +55,7 @@ const Sidebar = () => {
                 <div className={`p-2 rounded-xl ${active === 'budget'? 'bg-[#0275ff]' : 'bg-[#1a1f37]'}`}>
                   <assets.FaWallet className={`${active === 'budget'? 'text-white' : 'text-[#0275ff]'}`} />
                 </div>
-                <p className='text-sm font-semibold'>Budget</p>
+                <p className='text-sm font-semibold'>Budget Planner</p>
               </Link>
 
               <Link to='/chatbot' onClick={() => setActive('chatbot')} className={`flex items-center gap-3 p-2.5 rounded-2xl ${active === 'chatbot'? 'bg-[#1a1f37]' : 'bg-transparent'}`}>
