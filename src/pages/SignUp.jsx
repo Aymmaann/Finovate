@@ -16,14 +16,14 @@ const SignUp = () => {
         </div>
 
         {/* Form Section */}
-        <div className='absolute mt-20 left-32'>
+        <div className='absolute mt-16 left-32'>
           <p className='text-4xl font-semibold'>Get Started</p>
           <p className='font-medium text-gray-600 text-sm mt-4'>Enter your details to create an account.</p>
 
           <form onSubmit={handleSubmit}>
-            <input type="text" placeholder='Username' className='mt-6 block placeholder:text-gray-600 placeholder:text-sm outline-none border border-gray-300 rounded-md py-2 px-3 w-[350px]' />
-            <input type="email" placeholder='Email Address' className='mt-5 block placeholder:text-gray-600 placeholder:text-sm outline-none border border-gray-300 rounded-md py-2 px-3 w-[350px]' />
-            <input type="password" placeholder='Password' className='mt-5 block placeholder:text-gray-600 placeholder:text-sm outline-none border border-gray-300 rounded-md py-2 px-3 w-[350px]' />
+            <input type="text" placeholder='Name' required className='mt-6 block placeholder:text-gray-600 placeholder:text-sm outline-none border border-gray-300 rounded-md py-2 px-3 w-[350px]' />
+            <input type="email" placeholder='Email Address' required className='mt-5 block placeholder:text-gray-600 placeholder:text-sm outline-none border border-gray-300 rounded-md py-2 px-3 w-[350px]' />
+            <input type="password" placeholder='Password' required className='mt-5 block placeholder:text-gray-600 placeholder:text-sm outline-none border border-gray-300 rounded-md py-2 px-3 w-[350px]' />
 
             <Link
               to="/"
@@ -45,11 +45,11 @@ const SignUp = () => {
           </button>
           <Link
             to="/signin"
-            className="mt-3 text-center block smooth-transition rounded-md cursor-pointer bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+            className="mt-5 text-center block smooth-transition rounded-md cursor-pointer bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
             <span className='font-light'>Already have an account?</span> Sign In
           </Link>
 
-          <div className='flex items-center justify-center gap-3 mt-[66px]'>
+          <div className='flex items-center justify-center gap-3 mt-[74px]'>
             <Link to="/signin" className='h-[5px] bg-gray-300 w-[150px] rounded-xl'></Link>
             <Link to="/signup" className='h-[5px] bg-indigo-600 w-[150px] rounded-xl'></Link>
           </div>

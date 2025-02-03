@@ -92,7 +92,7 @@ const Dashboard = () => {
                       <p className="font-semibold mt-8">{ active === 'today' ? "Today's income" : "Monthly Income"}</p>
                       <p className="text-3xl font-medium mt-4">${ active === 'today' ? `${formatBalance(todayIncome)}` : `${formatBalance(monthData.Month_Income)}`} <span className="text-green-500 text-sm font-semibold">+2%</span></p>
                     </div>
-                    <div className="p-3 rounded-xl border-2 border-gray-300 my-auto">
+                    <div className="p-3 rounded-xl border border-gray-300 my-auto">
                       <assets.LuBadgeCheck className="text-gray-800 text-[25px]" />
                     </div>
                   </div>
@@ -102,7 +102,7 @@ const Dashboard = () => {
                       <p className="font-semibold mt-8">{ active === 'today' ? "Today's expense" : "Monthly expense"}</p>
                       <p className="text-3xl font-medium mt-4">${ active === 'today' ? `${formatBalance(todayExpense)}` : `${formatBalance(monthData.Month_Expense)}`} <span className="text-red-500 text-sm font-semibold">+4%</span> </p>
                     </div>
-                    <div className="p-3 rounded-xl border-2 border-gray-300 my-auto">
+                    <div className="p-3 rounded-xl border border-gray-300 my-auto">
                       <assets.LuBadgeAlert className="text-gray-800 text-[25px]" />
                     </div>
                   </div>
@@ -113,7 +113,7 @@ const Dashboard = () => {
                         <p className="font-semibold mt-8">{todayStatus >= 0? 'Surplus' : 'Deficit'}</p>
                         <p className={`text-3xl font-medium mt-4 ${todayStatus >= 0? 'text-green-500' : 'text-red-500'}`}>{todayStatus<0? `-$${formatBalance(todayStatus*-1)}` : `+$${formatBalance(todayStatus)}`}</p>
                       </div>
-                      <div className="p-3 rounded-xl border-2 border-gray-300 my-auto">
+                      <div className="p-3 rounded-xl border border-gray-300 my-auto">
                         {todayStatus >= 0? <assets.LuBadgePlus className="text-gray-800 text-[25px]" /> : <assets.LuBadgeMinus className="text-gray-800 text-[30px]" />}
                       </div>
                     </div>
@@ -123,7 +123,7 @@ const Dashboard = () => {
                         <p className="font-semibold mt-8">{monthData.Month_Total >= 0? 'Surplus' : 'Deficit'}</p>
                         <p className={`text-3xl font-medium mt-4 ${monthData.Month_Total >= 0? 'text-green-500' : 'text-red-500'}`}>{monthData.Month_Total<0? `-$${formatBalance(monthData.Month_Total*-1)}` : `+$${formatBalance(monthData.Month_Total)}`}</p>
                       </div>
-                      <div className="p-3 rounded-xl border-2 border-gray-300 my-auto">
+                      <div className="p-3 rounded-xl border border-gray-300 my-auto">
                         {monthData.Month_Total >= 0? <assets.LuBadgePlus className="text-gray-800 text-[25px]" /> : <assets.LuBadgeMinus className="text-gray-800 text-[30px]" />}
                       </div>
                     </div>

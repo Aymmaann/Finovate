@@ -30,7 +30,7 @@ const Sidebar = () => {
             <hr className="my-2 h-[1px] bg-gradient-to-r from-[#1c1e39] via-[#343850] to-[#1c1e39] border-0" />
 
             <div className='mt-4 text-gray-100'>
-              <Link to='/' onClick={() => setActive('home')} className={`flex items-center gap-3 p-2.5 rounded-2xl ${active === 'home'? 'bg-white' : 'bg-transparent'}`}>
+              <Link to='/' onClick={() => setActive('home')} className={`flex items-center gap-3 p-2.5 rounded-2xl ${active === 'home'? 'bg-[#1a1f37]' : 'bg-transparent'}`}>
                 <div className={`p-2 rounded-xl ${active === 'home'? 'bg-[#1a1f37]' : 'bg-[#1a1f37]'}`}>
                   <assets.FaHome className={`${active === 'home'? 'text-white' : 'text-[#0275ff]'}`} />
                 </div>
