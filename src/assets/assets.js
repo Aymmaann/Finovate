@@ -25,7 +25,8 @@ import { BsThreeDots } from "react-icons/bs";
 import { MdDeleteOutline } from "react-icons/md";
 import { LuCheck } from "react-icons/lu";
 import { RiFunctionAddFill } from "react-icons/ri";
-
+import { IoSunny } from "react-icons/io5";
+import { IoMoonSharp } from "react-icons/io5";
 
 // Images
 import OgLogo from "./images/black-bg-logo.png";
@@ -65,6 +66,8 @@ const assets = {
     MdDeleteOutline,
     LuCheck,
     RiFunctionAddFill,
+    IoSunny,
+    IoMoonSharp,
 
     // Images
     OgLogo,

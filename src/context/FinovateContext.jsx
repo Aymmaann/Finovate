@@ -13,7 +13,7 @@ export const FinanceProvider = ({ children }) => {
     const [expenseTotals, setExpenseTotals] = useState({});
     const [budgets,setBudgets] = useState([])
     const [isDataLoaded, setIsDataLoaded] = useState(false);
-
+    
     useEffect(() => {
         const interval = setInterval(() => {
           const newDate = formatDate(new Date())

@@ -13,7 +13,8 @@ export default {
         // lightGreen: '#4cc1c0',
         lightGreen: '#1dadc3',
         lightRed: '#fe6483',
-        lightGray: '#f7f6f9'
+        lightGray: '#f7f6f9',
+        darkModebg: '#121212'
       }
     },
   },

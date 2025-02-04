@@ -1,18 +1,21 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import assets from "../assets/assets.js" 
 import { Link } from 'react-router-dom';
 import Toggle from '../components/Toggle.jsx';
 
 const SignIn = () => {
+  
   const handleSubmit = (e) => {
     e.preventDefault();
   } 
 
   return (
-    <div className='w-screen h-screen bg-lightGray overflow-y-hidden overflow-x-hidden'>
-        <div className='pt-6 pb-2 pl-8 flex items-center gap-1'>
-          <img src={assets.BlackNoBgLogo} className='w-6' alt="" />
-          <p className='font-semibold tracking-widest uppercase'>Finovate</p>
+    <div className="w-screen h-screen overflow-y-hidden overflow-x-hidden bg-lightGray">
+        <div className='flex justify-between pt-6 pb-2 px-8'>
+          <div className='flex items-center gap-1'>
+            <img src={assets.BlackNoBgLogo} className='w-6' alt="" />
+            <p className='font-semibold tracking-widest uppercase'>Finovate</p>
+          </div>
         </div>
 
         {/* Form Section */}

@@ -672,11 +672,12 @@
                     "subscription": 128,
                     "food": 88,
                     "groceries": 114,
-                    "travel": 76
+                    "travel": 76,
+                    "rent": 1406
                 },
-                "Expense_total": 406
+                "Expense_total": 1812
             },
-            "Day_total": 399
+            "Day_total": -1007
         },
         "05/02/25": {
             "Income": {
@@ -1116,8 +1117,8 @@
             "Day_total": 188
         },
         "Month_Income": 16436,
-        "Month_Expense": 8838,
-        "Month_Total": 7598
+        "Month_Expense": 10627,
+        "Month_Total": 5809
     },
-    "Total_Balance": 68464
+    "Total_Balance": 66464
 }
