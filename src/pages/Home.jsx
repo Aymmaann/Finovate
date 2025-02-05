@@ -40,7 +40,7 @@ const Home = () => {
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
-              <Link key={item.name} to={item.href} className="text-sm/6 font-medium text-gray-900">
+              <Link key={item.name} to={item.href} className="text-sm/6 font-medium text-gray-900 hover:translate-y-[-1px] smooth-transition">
                 {item.name}
               </Link>
             ))}
